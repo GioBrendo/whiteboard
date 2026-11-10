@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production builds
+client/dist/
+dist/
+
+# Local binaries and sensitive tokens
+ngrok.exe
+tokens Ngrok.txt
+cloudflared.exe
+*.exe
+
+# Uploads and temporary data
+server/data/uploads/*
+!server/data/uploads/.gitkeep
+
+# Environment variables & Logs
+.env
+.env.*
+*.log
+npm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
